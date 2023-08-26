@@ -1,0 +1,148 @@
+.home__container {
+  background: #121122;
+  min-height: 100vh;
+  height: 100%;
+  .home__layout {
+    max-width: 1441px;
+    width: 80%;
+    margin: 0 auto;
+
+    .home__hero {
+      padding: 120px 96px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+
+      h1 {
+        color: #dcdaff;
+        font-family: "TAN - PEARL";
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      h2 {
+        color: #dcdaff;
+        font-family: "TAN - PEARL";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    .home__about {
+      padding: 120px 96px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      h1 {
+        color: #dcdaff;
+        font-family: "TAN - PEARL";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .home__about--texts {
+        display: grid;
+        gap: 16px;
+
+        p {
+          color: #dcdaff;
+          font-family: "Satoshi";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          min-width: 762px;
+          width: 100%;
+        }
+      }
+    }
+
+    .home__projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        color: #dcdaff;
+        font-family: "TAN - PEARL";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 120px 96px 72px 96px;
+      }
+    }
+
+    .projects--item {
+      border-bottom: 1px solid #dcdaff;
+      padding: 32px 40px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #dcdaff;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #b5b3e5;
+        color: #121122 !important;
+        margin-top: 0;
+      }
+
+      .projects--item-left {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        h3 {
+          text-align: center;
+          font-family: "TAN - PEARL";
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .projects-item-tools {
+          display: grid;
+          gap: 8px;
+
+          h2 {
+            font-family: "TAN - PEARL";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+
+          .project-tools {
+            display: flex;
+
+            span {
+              font-family: "Satoshi";
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+
+      .projects--item-right {
+        a {
+          text-decoration: none;
+          color: unset;
+        }
+      }
+    }
+  }
+}
