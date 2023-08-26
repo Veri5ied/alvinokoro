@@ -89,7 +89,10 @@
       align-items: center;
       justify-content: space-between;
       color: #dcdaff;
-      transition: all 0.2s ease-in-out;
+
+      &:last-child {
+        border-bottom: none;
+      }
 
       &:hover {
         background-color: #b5b3e5;
