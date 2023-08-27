@@ -8,9 +8,13 @@
 @font-face {
   font-family: "Satoshi";
   src: url("../../public/fonts/Satoshi-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "TAN - PEARL";
   src: url("../../public/fonts/TAN-PEARL.ttf");
+  font-weight: normal;
+  font-style: normal;
 }

@@ -6,8 +6,9 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+
     align-items: center;
+    justify-content: space-between;
     gap: 36px;
 
     h1 {
@@ -17,6 +18,12 @@
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+    }
+
+    .footer__center {
+      text-align: center;
+      display: grid;
+      gap: 36px;
     }
 
     .footer__socials {

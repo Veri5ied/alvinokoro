@@ -1,6 +1,8 @@
 import AppLayout from "@/layout/AppLayout";
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
+import Image from "next/image";
+import { MiniStar, TinyStar } from "../../public";
 
 export default function Home() {
   const projects = [
@@ -40,8 +42,15 @@ export default function Home() {
       <AppLayout>
         <div className="home__layout">
           <div className="home__hero pageborders">
-            <h1>Alvin Okoro</h1>
+            <div className="home__hero-title">
+              <Image src={MiniStar} alt="star" />
+              <h1>Alvin Okoro</h1>
+              <Image src={MiniStar} alt="star" />
+            </div>
             <h2>Software Engineer</h2>
+            <div className="tinystar">
+              <Image src={TinyStar} alt="star" />
+            </div>
           </div>
           <div className="home__about pageborders">
             <h1>About Me</h1>
